@@ -1,0 +1,132 @@
+[
+  {
+    "question": "According to the text, what is the rectangular (Cartesian) form of the phasor at 45°?",
+    "choices": [
+      "A. √2/2 + j √2/2",
+      "B. 1 + j0",
+      "C. 1/2 + j √3/2",
+      "D. -√2/2 + j √2/2"
+    ],
+    "answer": "A. √2/2 + j √2/2",
+    "explanation": "The table lists the 45° phasor as ε₄ (1↑2 + j 1↑2), which corresponds to cos 45° = √2/2 and sin 45° = √2/2, giving √2/2 + j √2/2.",
+    "difficulty": "easy",
+    "score": 4
+  },
+  {
+    "question": "Given the values in Table 1.1, what is the exact value of \\(\\tan\\frac{\\pi}{6}\\)?",
+    "choices": [
+      "A. \\(\\sqrt{3}\\)",
+      "B. \\(\\frac{1}{\\sqrt{3}}\\)",
+      "C. \\(\\frac{\\sqrt{3}}{3}\\)",
+      "D. \\(\\frac{1}{2}\\)"
+    ],
+    "answer": "C. \\(\\frac{\\sqrt{3}}{3}\\)",
+    "explanation": "From the table, \\(\\sin\\frac{\\pi}{6}=\\frac{1}{2}\\) and \\(\\cos\\frac{\\pi}{6}=\\frac{\\sqrt{3}}{2}\\). Using \\(\\tan\\theta=\\frac{\\sin\\theta}{\\cos\\theta}\\), \\(\\tan\\frac{\\pi}{6}=\\frac{\\frac{1}{2}}{\\frac{\\sqrt{3}}{2}}=\\frac{1}{\\sqrt{3}}=\\frac{\\sqrt{3}}{3}\\).",
+    "difficulty": "medium",
+    "score": 4
+  },
+  {
+    "question": "Given a = 3 and b = 4, what are the magnitude r and angle ϖ according to the formulas r = √(a² + b²) and ϖ = tan⁻¹(b/a)?",
+    "choices": [
+      "A. r = 5, ϖ = tan⁻¹(4/3)",
+      "B. r = 5, ϖ = tan⁻¹(3/4)",
+      "C. r = √13, ϖ = tan⁻¹(4/3)",
+      "D. r = 7, ϖ = tan⁻¹(4/3)"
+    ],
+    "answer": "A. r = 5, ϖ = tan⁻¹(4/3)",
+    "explanation": "r = √(3²+4²) = √25 = 5. The angle ϖ = tan⁻¹(b/a) = tan⁻¹(4/3). Only choice A matches both values.",
+    "difficulty": "medium",
+    "score": 4
+  },
+  {
+    "question": "What are the constraints on r and ϖ stated in the text?",
+    "choices": [
+      "A. r ≥ 0 and 0 ≤ ϖ < 2π",
+      "B. r > 0 and -π ≤ ϖ ≤ π",
+      "C. r ≤ 0 and 0 ≤ ϖ < π",
+      "D. r > 0 and 0 < ϖ ≤ π/2"
+    ],
+    "answer": "A. r ≥ 0 and 0 ≤ ϖ < 2π",
+    "explanation": "The passage specifies that the magnitude r is non‑negative (r ≥ 0) and the angle ϖ lies in the half‑open interval from 0 inclusive to 2π exclusive. The other options impose different sign or range restrictions that are not consistent with the given definition.",
+    "difficulty": "hard",
+    "score": 4
+  },
+  {
+    "question": "According to the passage, under what condition must a student use complex numbers when solving the quadratic equation ax² + bx + c = 0?",
+    "choices": [
+      "A. When a = 0",
+      "B. When b² − 4ac > 0",
+      "C. When b² − 4ac = 0",
+      "D. When b² − 4ac < 0"
+    ],
+    "answer": "D. When b² − 4ac < 0",
+    "explanation": "The text explains that if the discriminant b² − 4ac is negative, we must take the square root of a negative number, which requires the use of complex numbers.",
+    "difficulty": "hard",
+    "score": 4
+  },
+  {
+    "question": "According to Table 1.1, what is the value of sin(π/4)?",
+    "choices": [
+      "A. 1/2",
+      "B. √2/2",
+      "C. √3/2",
+      "D. 1"
+    ],
+    "answer": "B. √2/2",
+    "explanation": "The table lists sin π/4 (45°) as √2/2.",
+    "difficulty": "easy",
+    "score": 3
+  },
+  {
+    "question": "Using the identity \\(\\tan\\theta = \\frac{\\sin\\theta}{\\cos\\theta}\\) and the memorized values, what is \\(\\tan\\frac{\\pi}{3}\\)?",
+    "choices": [
+      "A. \\(\\sqrt{3}\\)",
+      "B. \\(\\frac{1}{\\sqrt{3}}\\)",
+      "C. 1",
+      "D. 0"
+    ],
+    "answer": "A. \\(\\sqrt{3}\\)",
+    "explanation": "Table 1.1 gives \\(\\sin\\frac{\\pi}{3}=\\frac{\\sqrt{3}}{2}\\) and \\(\\cos\\frac{\\pi}{3}=\\frac{1}{2}\\). Dividing, \\(\\tan\\frac{\\pi}{3}=\\frac{\\frac{\\sqrt{3}}{2}}{\\frac{1}{2}}=\\sqrt{3}\\).",
+    "difficulty": "medium",
+    "score": 3
+  },
+  {
+    "question": "What is the correct expression for the magnitude r of the vector (a, b) as defined in the text?",
+    "choices": [
+      "A. r = √(a² + b²)",
+      "B. r = a + b",
+      "C. r = √(a² - b²)",
+      "D. r = (a² + b²) / 2"
+    ],
+    "answer": "A. r = √(a² + b²)",
+    "explanation": "The magnitude r is defined as the Euclidean norm of the pair (a, b), which is the square root of the sum of the squares of a and b: r = √(a² + b²). The other options either omit the square root, subtract instead of add, or divide by 2, none of which match the definition.",
+    "difficulty": "hard",
+    "score": 3
+  },
+  {
+    "question": "According to the passage, how is the angle ϖ (phi) computed from the coordinates a and b?",
+    "choices": [
+      "A. ϖ = tan⁻¹(b / a)",
+      "B. ϖ = sin⁻¹(b / r)",
+      "C. ϖ = cos⁻¹(a / r)",
+      "D. ϖ = tan⁻¹(a / b)"
+    ],
+    "answer": "A. ϖ = tan⁻¹(b / a)",
+    "explanation": "The angle ϖ is given by the inverse tangent of the ratio b over a, i.e., ϖ = tan⁻¹(b/a). Options B and C use sine and cosine inverses, which are alternative forms but not the one presented. Option D swaps the numerator and denominator, yielding the complementary angle.",
+    "difficulty": "hard",
+    "score": 3
+  },
+  {
+    "question": "According to the special case sin(ϑ/2 ± ϱ) = cos ϱ, what is sin(ϑ/2 + ϱ) when ϑ = π/2 and ϱ = π/6?",
+    "choices": [
+      "A. √3/2",
+      "B. 1/2",
+      "C. √2/2",
+      "D. √3/4"
+    ],
+    "answer": "A. √3/2",
+    "explanation": "First compute ϑ/2 = π/4. Then ϑ/2 + ϱ = π/4 + π/6 = 5π/12. The identity gives sin(π/4 + π/6) = cos ϱ = cos π/6 = √3/2. The other choices are common values of sine or cosine at standard angles.",
+    "difficulty": "medium",
+    "score": 1
+  }
+]
